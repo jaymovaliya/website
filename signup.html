@@ -1,0 +1,61 @@
+<title>My Shop</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<link rel= "stylesheet" type="text/css" href="style.css"/>
+<script src="myscript.js"></script>
+</head>
+<body>
+<div id="header">
+<h1>My Shop<br></h1>
+<h3>Everything is here just shop it!</h3>
+</div>
+ <div id="menu_tab">
+      <ul class="menu">
+        <li><a href="index.html" class="nav">Home</a></li>
+        <li class="divider"></li>
+        <li><a href="products.html" class="nav">Products</a></li>
+        <li class="divider"></li>
+        <li><a href="login.html" class="nav">Log In</a></li>
+        <li class="divider"></li>
+        <li><a href="signup.html" class="nav">Sign Up</a></li>
+        <li class="divider"></li>
+        <li><a href="contact.html" class="nav">Contact Us</a></li>
+        <li class="divider"></li>
+        <li><a href="about.html" class="nav">About Us</a></li>
+        <li class="divider"></li>
+        <li><a href="offer.html" class="nav">Best Offers</a></li>
+        <li class="divider"></li>
+        <li><a href="cart.html" class="nav">My Cart</a></li>
+      </ul>
+    </div>
+<div class="left_content">
+      <div class="title_box">Categories</div>
+      <ul class="left_menu">
+        <li class="odd"><a href="#">Watches</a></li>
+        <li class="even"><a href="#">Clothes</a></li>
+        <li class="odd"><a href="#">Electronics</a></li>
+        <li class="even"><a href="#">Accessories</a></li>
+        <li class="odd"><a href="#">Footwear</a></li>
+      </ul>
+</div>
+<div class="center_content">
+     <div class="center_title_bar">SignUp</div><br>
+	 <div class="contact_form">
+	    <form action="store.php" method="post" name="signup_form" onsubmit="return signupValidate()">
+		    <div class="form_row">
+              <label class="contact"><strong>Username:</strong></label>
+              <input type="text" name="username" />
+            </div>
+            <div class="form_row">
+              <label class="contact"><strong>E-mail:</strong></label>
+              <input type="text" name="email" />
+            </div>
+            <div class="form_row">
+              <label class="contact"><strong>Password:</strong></label>
+              <input type="password" name="password" />
+            </div>
+			<input type="submit" value="SignUp">
+		</form>
+	</div>
+</div>
+</body>
+</html>
